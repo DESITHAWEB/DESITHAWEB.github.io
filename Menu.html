@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Royal Gate Restaurant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #d50032; /* Rich Red */
+      --secondary-color: #c71585; /* Medium Magenta */
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .navbar {
+      background-color: var(--primary-color);
+    }
+
+    .navbar-brand, .nav-link {
+      color: white !important;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(213, 0, 50, 0.7), rgba(199, 21, 133, 0.7)), url('https://via.placeholder.com/1920x800') center center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    .btn-primary {
+      background-color: var(--secondary-color);
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #a2146e;
+    }
+
+    .section-title {
+      color: var(--primary-color);
+    }
+
+    footer {
+      background-color: var(--primary-color);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+	  <img src="photoes/22.png" height="100" width="100" class="img-fluid rounded" alt="Dish 1"> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon bg-light"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="Restaurent.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="Restaurent.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="Restaurent.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Food Gallery</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .gallery-img {
+      transition: transform 0.3s ease;
+      border: 4px solid #cc0066; /* Magenta Border */
+      border-radius: 15px;
+    }
+    .gallery-img:hover {
+      transform: scale(1.05);
+      border-color: #ff0033; /* Red on hover */
+    }
+    .gallery-title {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #cc0066;
+      font-weight: bold;
+    }
+	  .btn-primary {
+      background-color: var(--secondary-color);
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #a2146e;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container py-5">
+  <h2 class="gallery-title"><u>-STARTERS-</u></h2>
+  <div class="row g-4">
+
+    <div class="col-sm-6 col-md-4">
+	  <h2 class="gallery-title">Fried Rice</h2>
+      <img src="photoes/7.jpg" height="300" width="400" class="img-fluid gallery-img" alt="Fried Rice">
+		<div>
+		<li>full and half postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>5 person </li>
+		<li>chicken,mix and seafood rice </li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+	  <h2 class="gallery-title">Burger</h2>
+      <img src="photoes/2.jpg" height="300" width="345" class="img-fluid gallery-img" alt="Burger">
+		<div>
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>chicken,chesse and vegitable burger </li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+	  <h2 class="gallery-title">Chicken Kotthu</h2>
+      <img src="photoes/8.jpg" height="400" width="400" class="img-fluid gallery-img" alt="Chicken Kotthu">
+		<div>
+		<li>full and half postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>5 person </li>
+		<li>chicken,chesse and seafood kotthu </li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+	  <h2 class="gallery-title">Cheese hoppers</h2>
+      <img src="photoes/9.jpg" height="300" width="400" class="img-fluid gallery-img" alt="Cheese hoppers">
+		<div>
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>chicken,chesse and egg hoppers </li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+	  <h2 class="gallery-title">BBQ</h2>
+      <img src="photoes/5.jpeg" height="300" width="345" class="img-fluid gallery-img" alt="BBQ">
+		<div>
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>chicken,beef and pork BBQ </li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+	  <h2 class="gallery-title">Parate</h2>
+      <img src="photoes/10.jpeg" height="300" width="400" class="img-fluid gallery-img" alt="Parate">
+		<div>
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>normal and egg Parate </li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+  </div>
+</div>
+<div class="container py-5">
+  <h2 class="gallery-title"><u>-MAIN COURSE-</u></h2>
+  <div class="row g-4">
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Pizza</h2>
+      <img src="photoes/1.jpg" height="300" width="400" class="img-fluid gallery-img" alt="Pizza">
+		<div>
+		<li>full and half postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>8 person </li>
+		<li>chicken,beef and BBQ pizza </li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Dolphin Kotthu</h2>
+      <img src="photoes/11.jpg" height="300" width="355" class="img-fluid gallery-img" alt="Dolphin Kotthu">
+		<div>
+		<li>full and half postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>10 person </li>
+		<li>chicken only</li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Cheese Spagati</h2>
+      <img src="photoes/3.jpeg" height="400" width="400" class="img-fluid gallery-img" alt="Cheese Spagati">
+		<div>
+		<li>full and half postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>5 person </li>
+		<li>chicken only</li>
+		</div>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Chicken Biriyani</h2>
+      <img src="photoes/12.jpg" height="400" width="500" class="img-fluid gallery-img" alt="Chicken Biriyani">
+		<li>full and half postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>5 person </li>
+		<li>chicken only</li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Submarine</h2>
+      <img src="photoes/13.jpg" height="300" width="350" class="img-fluid gallery-img" alt="Submarine">
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>chicken only </li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+	   <h2 class="gallery-title">Cream Soup</h2>
+      <img src="photoes/14.jpeg" height="300" width="400" class="img-fluid gallery-img" alt="Cream Soup">
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>chicken only </li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+  </div>
+</div>
+<div class="container py-5">
+  <h2 class="gallery-title"><u>-DESSERTS-</u></h2>
+  <div class="row g-4">
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Jelly</h2>
+      <img src="photoes/15.jpg" height="300" width="400" class="img-fluid gallery-img" alt="Jelly">
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>red,green and orange jelly </li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Ice Cream</h2>
+      <img src="photoes/17.jpg" height="300" width="400" class="img-fluid gallery-img" alt="Ice Cream">
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>strowberry,mango and chocolate ice cream </li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Caromal Pudding</h2>
+      <img src="photoes/18.jpg" height="400" width="400" class="img-fluid gallery-img" alt="Caromal Pudding">
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>strowberry,mango and honney caromal pudding </li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Salad</h2>
+      <img src="photoes/4.JPG" height="300" width="400" class="img-fluid gallery-img" alt="Salad">
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>karrot,onioun and lefeves salad </li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Watallappan</h2>
+      <img src="photoes/16.jpg" height="300" width="400" class="img-fluid gallery-img" alt="Watallappan">
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>brown and white watallappan </li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+    <div class="col-sm-6 col-md-4">
+		<h2 class="gallery-title">Cheese Cake</h2>
+      <img src="photoes/6.jpg" height="300" width="400" class="img-fluid gallery-img" alt="Cheese Cake">
+		<li>Number of postions are avalable</li>
+		<li>dine in and take away </li>
+		<li>unlimited person </li>
+		<li>strowberry,blue berry and mango cheese cake </li>
+		<a href="order.html" class="btn btn-primary btn-lg mt-3">Order Now</a>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
